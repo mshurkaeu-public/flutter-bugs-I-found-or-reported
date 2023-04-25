@@ -1,0 +1,29 @@
+{
+  "helloBugManifistation1": "$nice_bug\nHello Bug! Manifistation #1 {selectPlaceholder, select, case{message} other{messageOther}}",
+  "@helloBugManifistation1": {
+    "description": "This is a demo #1 of the bug",
+    "placeholders": {
+      "selectPlaceholder": {
+        "type": "String"
+      }
+    }
+  },
+  "helloBugManifistation2": "{selectPlaceholder, select, case{} other{}}$nice_bug\nHello Bug! Manifistation #2 {selectPlaceholder, select, case{message} other{messageOther}}",
+  "@helloBugManifistation2": {
+    "description": "This is a demo #2 of the bug",
+    "placeholders": {
+      "selectPlaceholder": {
+        "type": "String"
+      }
+    }
+  },
+  "workaroundTheBug": "\u200B$nice_bug\nHello Bug! A workaround... {selectPlaceholder, select, case{message} other{messageOther}}",
+  "@helloBug1": {
+    "description": "This is a demo of a workaround for the bug",
+    "placeholders": {
+      "selectPlaceholder": {
+        "type": "String"
+      }
+    }
+  }
+}
